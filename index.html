@@ -72,31 +72,29 @@ Profa. Marina Figueiredo Moreira · Atividade 2 (estudo de caso individual)
 <li><strong>Cinco perguntas de triagem (Aula 4):</strong> se sobrepõem ao checklist de Dornelas (cliente identificável ≈ quem tem o problema; janela aberta ≈ por que agora). Manter as duas listas duplicaria o filtro, e o 3M de estrutura do mercado cobre a concorrência.</li>
 <li><strong>Cinco modelos da web (Aula 6):</strong> a pergunta de quem paga já captura o essencial, e o enquadramento em modelos não ajuda a cortar nada.</li>
 <li><strong>Critérios de alto e baixo potencial (Aula 5):</strong> os patamares são de capital de risco e reprovariam negócio pequeno saudável.</li>
-<li><strong>Brainstorming, fontes de ideias, cinco aspectos de Timmons, experiência no ramo (Aula 5):</strong> servem para gerar ideias ou avaliar o empreendedor, e o prompt qualifica oportunidades. A experiência no ramo não entrou no prompt, mas foi usada na análise da Etapa 4.3 (seção 4).</li>
+<li><strong>Brainstorming, fontes de ideias, cinco aspectos de Timmons, experiência no ramo (Aula 5):</strong> servem para gerar ideias ou avaliar o empreendedor, e o prompt qualifica oportunidades. A experiência no ramo não entrou no prompt, mas foi usada na análise da seção 4.3.</li>
 <li><strong>Ramo tradicional vs. emergente e os vetores (Aula 4):</strong> são conteúdo da aula, não instrumento. Entrariam no prompt só se eu os usasse no recorte, e não usei.</li>
 </ul>
 </section>
 
 <section id="prompt">
 <h2>2. O prompt-mestre</h2>
-<p>O mesmo prompt, sem nenhuma alteração, foi usado nas três IAs. À esquerda, o texto na íntegra, bloco a bloco; à direita, o instrumento de aula que o bloco carrega e o efeito esperado.</p>
+<p>O mesmo prompt, sem nenhuma alteração, foi usado nas três IAs. Abaixo, o texto na íntegra; depois, a justificativa bloco a bloco: o que cada parte carrega da régua da Etapa 1 e o que se espera dela.</p>
+<h3>O prompt na íntegra</h3>
+<pre>OBJETIVO
 
-<div class="bloco"><pre>OBJETIVO
+Você é um analista de oportunidades de negócio para quem está começando. Detecte e qualifique oportunidades de negócio no mercado brasileiro para o horizonte 2026–2030, seguindo rigorosamente as regras abaixo. Responda em português, sem introdução e sem fazer perguntas.
 
-Você é um analista de oportunidades de negócio para quem está começando. Detecte e qualifique oportunidades de negócio no mercado brasileiro para o horizonte 2026–2030, seguindo rigorosamente as regras abaixo. Responda em português, sem introdução e sem fazer perguntas.</pre>
-<div class="nota"><b>Instrumento:</b> define o papel e o horizonte do estudo.<div class="todo">Efeito esperado: A PREENCHER</div></div></div>
-
-<div class="bloco"><pre>RECORTE
+RECORTE
 
 - Setor: comércio, serviços e varejo, físico ou digital.
 - Região: Distrito Federal (Brasília e entorno).
 - Empreendedor: uma pessoa, sem sócio investidor e sem experiência prévia no ramo.
 - Capital inicial disponível: até R$ 50.000.
 - Porte: MEI ou microempresa.
-- Horizonte: 2026–2030.</pre>
-<div class="nota"><b>Instrumento:</b> decisão de recorte exigida pelo enunciado (setor, região, porte, capital, horizonte).<p><b>Efeito esperado:</b> evita o lugar-comum e força negócio viável para quem começa.</p></div></div>
+- Horizonte: 2026–2030.
 
-<div class="bloco"><pre>CRITÉRIO DE CORTE
+CRITÉRIO DE CORTE
 
 Tendência não é oportunidade. Tendência é uma direção geral que está em todos os relatórios (por exemplo, "a população está envelhecendo"); não tem dono, preço nem cliente. Oportunidade é um problema concreto de um cliente que você consiga nomear (quem é, onde está), que ele queira resolver a ponto de pagar. Toda oportunidade nasce dentro de uma tendência, mas a tendência só indica onde procurar. Se você não conseguir nomear o cliente e dizer quem paga, descarte a ideia.
 
@@ -108,20 +106,18 @@ c) É possível identificar com clareza os potenciais clientes?
 d) É possível executar uma estratégia de marketing e vendas viável em custo e retorno, dentro do capital informado?
 e) A janela da oportunidade está aberta (que mudança recente a abriu)?
 
-Quem responder "não" a qualquer pergunta é descartada e não entra na lista. Ao final, liste até 2 ideias descartadas e a pergunta em que cada uma falhou.</pre>
-<div class="nota"><b>Instrumentos:</b> tendência vs. oportunidade (Aula 4) e checklist final de Dornelas (Aula 5).<p><b>Efeito esperado:</b> tendência vs. oportunidade: a IA não entrega lista de tendências e separa o movimento geral do problema com cliente. Checklist: filtro objetivo, e as descartadas dão material para a auditoria.</p></div></div>
+Quem responder "não" a qualquer pergunta é descartada e não entra na lista. Ao final, liste até 2 ideias descartadas e a pergunta em que cada uma falhou.
 
-<div class="bloco"><pre>PADRÃO DE EVIDÊNCIA
+PADRÃO DE EVIDÊNCIA
 
 - Todo número deve vir com valor, fonte, ano e o que está sendo medido (por exemplo, volume ou faturamento nominal; variação mensal ou anual). Antes de usar um número, identifique o que ele mede.
 - Fontes aceitas: IBGE, SEBRAE, Banco Central, ministérios, agências reguladoras, associações setoriais e legislação. Não use outras IAs, blogs ou sites sem fonte identificável.
 - Se houver estimativas divergentes para o mesmo mercado, apresente-as e explique o que cada uma mede, em vez de escolher uma.
 - Métrica de atenção não é evidência de negócio. É proibido justificar o potencial por audiência, seguidores, visitas ou downloads. Use apenas receita, custo e margem.
 - Se não houver dado confiável, escreva "sem dado confiável". Não estime e não invente. Rotule como "premissa" qualquer suposição sua.
-- No início da resposta, informe se você teve acesso à web e a data de corte do seu conhecimento.</pre>
-<div class="nota"><b>Instrumentos:</b> leitura crítica de dado de mercado (Aula 4) e métrica de atenção vs. métrica de negócio (Aula 6).<p><b>Efeito esperado:</b> números: cada número rastreável, e divergência explicada em vez de escondida. Métrica de atenção: audiência não vale como prova de potencial.</p></div></div>
+- No início da resposta, informe se você teve acesso à web e a data de corte do seu conhecimento.
 
-<div class="bloco"><pre>FORMATO DE SAÍDA
+FORMATO DE SAÍDA
 
 Para cada oportunidade, use exatamente estes campos, nesta ordem:
 
@@ -136,13 +132,24 @@ Para cada oportunidade, use exatamente estes campos, nesta ordem:
 9. Principal risco: a condição que, se falhar, derruba a oportunidade
 10. Fontes
 
-Ordene da mais para a menos promissora.</pre>
-<div class="nota"><b>Instrumentos:</b> os 3Ms (Aula 5), nos campos 5, 6 e 7; definição de modelo de negócio (Aula 6), no campo 4.<p><b>Efeito esperado:</b> campo 4: toda oportunidade responde quem paga, por quê e a que custo. Campos 5 a 7: estrutura fixa, então as três respostas ficam comparáveis na Etapa 4.</p></div></div>
+Ordene da mais para a menos promissora.
 
-<div class="bloco"><pre>QUANTIDADE
+QUANTIDADE
 
 Apresente exatamente 3 oportunidades, mais a lista de até 2 descartadas. Se menos de 3 passarem no corte, apresente só as que passaram e diga isso explicitamente.</pre>
-<div class="nota"><b>Instrumento:</b> decisão de quantidade exigida pelo enunciado.<p><b>Efeito esperado:</b> poucas força seleção. Três por IA dão nove candidatas para o 5.3.</p></div></div>
+<h3>Justificativa bloco a bloco</h3>
+<div class="w"><table>
+<tr><th>Bloco do prompt</th><th>Instrumento (aula)</th><th>Efeito esperado</th></tr>
+<tr><td>Objetivo</td><td>Define papel e horizonte (decisão de recorte)</td><td>Fixa o papel de analista e o horizonte, e proíbe introdução e perguntas, para que as três IAs entreguem respostas diretas e comparáveis.</td></tr>
+<tr><td>Recorte</td><td>Decisão exigida pelo enunciado</td><td>Evita o lugar-comum e força negócio viável para quem começa.</td></tr>
+<tr><td>Critério de corte: definição inicial</td><td>Tendência vs. oportunidade (Aula 4)</td><td>A IA não entrega lista de tendências e separa o movimento geral do problema com cliente.</td></tr>
+<tr><td>Critério de corte: checklist</td><td>Checklist final de Dornelas (Aula 5)</td><td>Filtro objetivo. As descartadas dão material para a auditoria.</td></tr>
+<tr><td>Padrão de evidência: números</td><td>Leitura crítica de dado de mercado (Aula 4)</td><td>Cada número rastreável, e divergência explicada em vez de escondida.</td></tr>
+<tr><td>Padrão de evidência: métrica de atenção</td><td>Atenção vs. negócio (Aula 6)</td><td>Audiência não vale como prova de potencial.</td></tr>
+<tr><td>Formato de saída: campo 4</td><td>Definição de modelo de negócio (Aula 6)</td><td>Toda oportunidade responde quem paga, por quê e a que custo.</td></tr>
+<tr><td>Formato de saída: campos 5 a 7</td><td>Os 3Ms (Aula 5)</td><td>Estrutura fixa, então as três respostas ficam comparáveis na síntese.</td></tr>
+<tr><td>Quantidade</td><td>Decisão exigida pelo enunciado</td><td>Poucas força seleção. Três por IA dão nove candidatas para a seção 4.3.</td></tr>
+</table></div>
 </section>
 
 <section id="protocolo">
@@ -188,13 +195,14 @@ Não escreva conclusão, recomendação nem opinião.</pre>
 <tr><th>Bloco</th><th>Decisão</th><th>Efeito esperado</th></tr>
 <tr><td>Papel</td><td>Sintetizador, não analista</td><td>Reduz o risco de a quarta IA produzir conteúdo próprio (afirmação órfã).</td></tr>
 <tr><td>Regra 1</td><td>Só o conteúdo recebido, sem web</td><td>Impede dado novo.</td></tr>
-<tr><td>Regra 2</td><td>Marcação [IA-n] em cada afirmação</td><td>Dá rastreabilidade, o centro da auditoria da Etapa 5.1.</td></tr>
+<tr><td>Regra 2</td><td>Marcação [IA-n] em cada afirmação</td><td>Dá rastreabilidade, o centro da auditoria da seção 4.1.</td></tr>
 <tr><td>Regra 3</td><td>Preservar número e grau de certeza</td><td>Evita a distorção de número e de grau de certeza.</td></tr>
-<tr><td>Regra 4</td><td>Não resolver divergências; cada versão com sua marcação; classificar em "2 contra 1" ou "discordância total"</td><td>Impede que a síntese escolha uma versão ou faça média, o que apagaria a discordância entre as IAs. A classificação mostra de que lado cada IA está, sem escolher entre as versões.</td></tr>
-<tr><td>Regra 5</td><td>Não esconder o exclusivo</td><td>Impede que o que só uma IA disse desapareça por falta de apoio das outras (afirmação suprimida).</td></tr>
+<tr><td>Regra 4</td><td>Não resolver divergências; cada versão com sua marcação; classificar em "2 contra 1" ou "discordância total"</td><td>Combate a tendência da síntese de buscar consenso: impede escolher uma versão ou fazer média. A classificação mostra de que lado cada IA está, sem escolher entre as versões.</td></tr>
+<tr><td>Regra 5</td><td>Não esconder o exclusivo</td><td>Combate a supressão: o que só uma IA disse não desaparece por falta de apoio das outras.</td></tr>
 <tr><td>Regra 6</td><td>Proibir "consenso" com duas IAs</td><td>Evita grau de certeza inflado.</td></tr>
 <tr><td>Regra 7</td><td>"Não consta nas respostas"</td><td>Dá à IA uma saída que não seja inventar.</td></tr>
-<tr><td>Blocos A a H</td><td>Estrutura fixa com itens numerados (C1, D1, E1)</td><td>Facilita a Etapa 5.1: escolher pelo menos oito itens e localizar cada um na origem.</td></tr>
+<tr><td>Blocos A a H</td><td>Estrutura fixa com itens numerados (C1, D1, E1)</td><td>Facilita a seção 4.1: escolher pelo menos oito itens e localizar cada um na origem.</td></tr>
+<tr><td>Respostas anônimas (IA-1, IA-2, IA-3)</td><td>Sem nome da ferramenta</td><td>Evita viés da quarta IA com relação a marcas. O mapeamento entre IA-1, IA-2, IA-3 e as ferramentas consta na tabela acima.</td></tr>
 </table></div>
 <p class="nota">A saída completa da quarta IA está nos <a href="#anexos">Anexos</a>.</p>
 </section>
@@ -202,13 +210,14 @@ Não escreva conclusão, recomendação nem opinião.</pre>
 <section id="sintese">
 <h2>4. A síntese auditada</h2>
 <h3>4.1 Auditoria de rastreabilidade</h3>
-<p>Onze afirmações da síntese localizadas nas respostas originais.</p>
+<p>Doze afirmações da síntese confrontadas com as respostas originais.</p>
 <div class="w"><table>
 <tr><th>Afirmação da síntese</th><th>Aparece em</th><th>Fidelidade</th><th>Comentário</th></tr>
 <tr><td>G: "IA-1: web sim, corte em fevereiro de 2026" e "IA-2: web não (modo offline), corte em março de 2026"</td><td>Nenhuma das três</td><td class="o">Órfã</td><td>O texto da IA-1 e o da IA-2 não informam acesso à web nem data de corte. A síntese produziu a informação sozinha e ainda a usou para concluir que as fontes da IA-1 seriam posteriores ao corte. O "web não" da IA-2 também contradiz o registro da Etapa 3 (busca ativada).</td></tr>
 <tr><td>C15: ar-condicionado é compatível com MEI</td><td>IA-3 e IA-2</td><td class="d">Distorcida</td><td>A IA-3 diz que a atividade consta no rol do MEI. A IA-2 só cita a taxa mensal do MEI como custo, sem afirmar que a atividade é permitida. A síntese atribuiu à IA-2 algo que ela não disse.</td></tr>
 <tr><td>D10: divergência sobre acompanhar idosos em consultas e compromissos</td><td>IA-1 e IA-3</td><td class="d">Distorcida</td><td>A IA-1 descartou o acompanhamento a consultas (falha em e) e a IA-3 inclui acompanhamento em compromissos no escopo. Nenhuma aponta contradição. A síntese montou a divergência por conta própria.</td></tr>
 <tr><td>D8: idosos, [IA-3] com "margem de 85%"</td><td>IA-3</td><td class="d">Distorcida</td><td>A IA-3 declara margem bruta de 70% a 85% (premissa). A síntese manteve só o teto, contra a Regra 3, que mandava preservar os números exatamente como apareceram.</td></tr>
+<tr><td>[IA-2] Ar-condicionado residencial: a janela da oportunidade é a alta das temperaturas no Centro-Oeste e o aumento da venda de equipamentos</td><td>IA-2</td><td class="o">Suprimida</td><td>Não aparece na síntese (nenhuma ocorrência de "temperatura" ou "calor"). A síntese registra a janela de outras oportunidades (D9, E5, E8, E9), inclusive a do ar-condicionado segundo a IA-3 (Contrata+Brasil), mas omite a da IA-2. Com isso esconde uma divergência: para o mesmo negócio, uma IA aponta o clima e a outra um canal de contratação pública.</td></tr>
 <tr><td>C1: banho e tosa a domicílio é a oportunidade 2 em duas respostas</td><td>IA-1 e IA-2</td><td class="s">Sustentada</td><td>Confere nas duas respostas.</td></tr>
 <tr><td>C10: 565 mil idosos no DF em 2030, 16,6% da população</td><td>IA-1 e IA-3</td><td class="s">Sustentada</td><td>Confere. A IA-3 traz 565.382 e informa que a projeção é de 2022.</td></tr>
 <tr><td>D12: ar-condicionado, investimento R$ 12 mil e CAC R$ 35 vs. R$ 30–45 mil e CAC R$ 300</td><td>IA-2 e IA-3</td><td class="s">Sustentada</td><td>Todos os valores e premissas conferem com as respostas originais.</td></tr>
@@ -233,7 +242,7 @@ Não escreva conclusão, recomendação nem opinião.</pre>
 </table></div>
 
 <h3>4.3 Aplicação da régua</h3>
-<p>Critérios: checklist final da Aula 5 (slide 14) e definição de modelo de negócio da Aula 6. Dados marcados como verificados constam da Etapa 4.2; os demais são premissas das IAs.</p>
+<p>Critérios: checklist final da Aula 5 (slide 14) e definição de modelo de negócio da Aula 6. Dados marcados como verificados constam da seção 4.2; os demais são premissas das IAs.</p>
 <div class="w"><table>
 <tr><th>Critério</th><th>Banho e tosa a domicílio</th><th>Acompanhamento não clínico de idosos</th><th>Manutenção de ar-condicionado</th></tr>
 <tr><th colspan="4">Checklist final</th></tr>
@@ -258,13 +267,13 @@ Não escreva conclusão, recomendação nem opinião.</pre>
 <h2>5. Conclusão</h2>
 <h3>A oportunidade que defendo</h3>
 <p>Defendo, com condições, o acompanhamento não clínico de idosos, na versão presencial e vendida ao familiar que paga. Nenhuma das três candidatas passa limpa no checklist, e a escolha segue o critério de corte do meu próprio prompt: quem recebe um "não" é descartada. O banho e tosa passa em quatro perguntas, mas a janela é fraca (serviço que já existe, em mercado em que o crescimento é tendência e não mudança recente). A manutenção de ar-condicionado depende de capacitação técnica incompatível com o recorte de iniciante e de um mercado que não verifiquei. Os idosos não recebem nenhum "não", embora tenham ressalvas nas perguntas 2, 3 e 4.</p>
-<p>O que sustenta a escolha: o problema de fundo foi verificado em fonte oficial (565.382 idosos projetados para 2030, 16,6% da população, segundo o Codeplan, em projeção de 2022 que o próprio estudo avisa poder estar superestimada); a Lei nº 15.069/2024 é uma mudança institucional recente e verificada, embora não prove demanda paga; e a confiança funciona como barreira de entrada para quem a conquista. O que ainda não está demonstrado: o escopo precisa ser escolhido, porque a IA-1 e a IA-3 propõem negócios diferentes; o ponto de equilíbrio vai de 2 clientes a 8–12 conforme a IA, em premissas que não verifiquei; e o recorte sem experiência no ramo contraria a lição do slide 7 da Aula 5. O retorno, portanto, ainda não está demonstrado.</p>
+<p>O que sustenta a escolha: o problema de fundo foi verificado em fonte oficial (565.382 idosos projetados para 2030, 16,6% da população, segundo o Codeplan, seção 4.2, item 3, em projeção de 2022 que o próprio estudo avisa poder estar superestimada); a Lei nº 15.069/2024 (seção 4.2, item 7) é uma mudança institucional recente e verificada, embora não prove demanda paga; e a confiança funciona como barreira de entrada para quem a conquista. O que ainda não está demonstrado: o escopo precisa ser escolhido, porque a IA-1 e a IA-3 propõem negócios diferentes; o ponto de equilíbrio vai de 2 clientes a 8–12 conforme a IA, em premissas que não verifiquei; e o recorte sem experiência no ramo contraria a lição do slide 7 da Aula 5. O retorno, portanto, ainda não está demonstrado.</p>
 
 <h3>O que aprendi sobre encadear IAs</h3>
-<p>Das onze afirmações da síntese que auditei, sete foram sustentadas, três distorcidas e uma órfã. A síntese acertou onde a tarefa era mecânica: preservou os três valores diferentes do faturamento pet sem reconciliá-los (D14), marcou como exclusiva a Resolução CGSN nº 191/2026 (E7) e manteve o grau de certeza do que a IA-2 disse sem apresentar número (E4). Errou onde teve de preencher lacunas. O bloco G pedia a condição original de cada IA, e as respostas não traziam essa informação. A Regra 7 mandava escrever "não consta nas respostas", e a síntese fez isso só para a IA-3; para a IA-1 e a IA-2 inventou acesso à web e data de corte, e o "web não" da IA-2 contradiz o meu próprio registro. Além disso, criou uma divergência que as respostas não continham (D10), atribuiu à IA-2 uma afirmação sobre o MEI que ela não fez (C15) e reduziu a faixa de margem de 70% a 85% da IA-3 ao teto de 85% (D8). Meu prompt de síntese reduziu esses erros, mas não os eliminou, e eles apareceram justamente onde o formato exigia um conteúdo que a origem não tinha.</p>
+<p>Das doze afirmações da síntese que auditei, sete foram sustentadas, três distorcidas, uma órfã e uma suprimida. A síntese acertou onde a tarefa era mecânica: preservou os três valores diferentes do faturamento pet sem reconciliá-los (D14), marcou como exclusiva a Resolução CGSN nº 191/2026 (E7) e manteve o grau de certeza do que a IA-2 disse sem apresentar número (E4). Errou onde teve de preencher lacunas. O bloco G pedia a condição original de cada IA, e as respostas não traziam essa informação. A Regra 7 mandava escrever "não consta nas respostas", e a síntese fez isso só para a IA-3; para a IA-1 e a IA-2 inventou acesso à web e data de corte, e o "web não" da IA-2 contradiz o meu próprio registro. Além disso, criou uma divergência que as respostas não continham (D10), atribuiu à IA-2 uma afirmação sobre o MEI que ela não fez (C15), reduziu a faixa de margem de 70% a 85% da IA-3 ao teto de 85% (D8) e omitiu a janela climática que a IA-2 deu ao ar-condicionado, o que escondeu uma divergência entre as IAs. Meu prompt de síntese reduziu esses erros, mas não os eliminou, e eles apareceram justamente onde o formato exigia um conteúdo que a origem não tinha.</p>
 <p>A segunda lição é que uma síntese fiel também propaga o erro da origem. Dos sete itens que confrontei com fonte primária, dois não se confirmaram, e ambos já estavam na resposta da IA-1: o 9,3% de idosos em 2020, que a própria fonte traz de forma inconsistente, e os 45,8% de cães, que a IA-1 leu como proporção dos domicílios com animal quando o IPEDF mede o total de domicílios. A síntese não pode corrigir isso, porque o prompt a proibiu de avaliar. Cada camada da cadeia herda os erros da anterior, e só a verificação em fonte primária interrompe essa herança. Por isso resposta de IA, ainda que sintetizada e bem formatada, não substitui o documento oficial.</p>
 <h3>Uma instrução que a quarta IA não seguiu</h3>
-<p>O prompt de síntese pedia, na Regra 4 e no bloco C, que cada divergência fosse classificada como "2 contra 1" ou "discordância total", com as discordâncias totais listadas primeiro. A saída da quarta IA lista D1 a D14 sem nenhuma classificação e sem essa ordem. D14, o faturamento do mercado pet nacional, é uma discordância total (R$ 76,3 bi, R$ 68,9 bi e R$ 77,9 bi, uma em cada IA) e aparece por último, sem rótulo. Os números foram preservados, como a Regra 3 pedia, mas a instrução que deveria ajudar o leitor a pesar as divergências foi ignorada em silêncio. Na Etapa 4, a busca na web da quarta IA estava ativada, ainda que a Regra 1 a proibisse, e não sei se isso influenciou o resultado.</p>
+<p>O prompt de síntese pedia, na Regra 4 e no bloco C, que cada divergência fosse classificada como "2 contra 1" ou "discordância total", com as discordâncias totais listadas primeiro. A saída da quarta IA lista D1 a D14 sem nenhuma classificação e sem essa ordem. D14, o faturamento do mercado pet nacional, é uma discordância total (R$ 76,3 bi, R$ 68,9 bi e R$ 77,9 bi, uma em cada IA) e aparece por último, sem rótulo. Os números foram preservados, como a Regra 3 pedia, mas a instrução que deveria ajudar o leitor a pesar as divergências foi ignorada em silêncio. Na síntese, a busca na web da quarta IA estava ativada, ainda que a Regra 1 a proibisse, e não sei se isso influenciou o resultado.</p>
 </section>
 
 <section id="anexos">
